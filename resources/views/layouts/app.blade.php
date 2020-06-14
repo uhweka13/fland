@@ -18,6 +18,18 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+        .row.no-gutters {
+            margin-right: 0;
+            margin-left: 0;
+
+            & > [class^="col-"],
+            & > [class*=" col-"] {
+                padding-right: 0;
+                padding-left: 0;
+            }
+        }
+    </style>
 </head>
 <body>
     <div id="app">

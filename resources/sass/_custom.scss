@@ -1,0 +1,158 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #imagesforcardhomepage{
+        height: 100px;
+    }
+
+    #cardhights{
+        height: 200px;
+    }
+
+    #desktoponlycardtext{
+        display: none;
+    }
+
+    #cardTitle{
+        font-size: 13px;
+    }
+
+    #mobileonlycardtext{
+        display: block;
+    }
+
+    #btn-desktop{
+        display: none;
+    }
+
+    #btn-mobile{
+        display: block;
+    }
+
+    #testimonialscarousel{
+        width: 90%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #imagesforcardhomepage{
+        height: 100px;
+    }
+
+    #desktoponlycardtext{
+        display: none;
+    }
+
+    #desktoponlycardtext{
+        display: none;
+    }
+
+    #cardTitle{
+        font-size: 13px;
+    }
+
+    #mobileonlycardtext{
+        display: block;
+    }
+
+    #btn-desktop{
+        display: none;
+    }
+
+    #btn-mobile{
+        display: block;
+    }
+
+    #testimonialscarousel{
+        width: 90%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #imagesforcardhomepage{
+        height: 150px;
+    }
+
+    #desktoponlycardtext{
+        display: none;
+    }
+
+    #mobileonlycardtext{
+        display: none;
+    }
+
+    #btn-desktop{
+        display: block;
+    }
+
+    #btn-mobile{
+        display: none;
+    }
+
+    #testimonialscarousel{
+        width: 80%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #imagesforcardhomepage{
+        height: 200px;
+    }
+
+    #desktoponlycardtext{
+        display: block;
+    }
+
+    #cardTitle{
+        font-size: 18px;
+    }
+
+    #mobileonlycardtext{
+        display: none;
+    }
+
+    #btn-desktop{
+        display: block;
+    }
+
+    #btn-mobile{
+        display: none;
+    }
+
+    #testimonialscarousel{
+        width: 40%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #imagesforcardhomepage{
+        height: 200px;
+    }
+
+    #desktoponlycardtext{
+        display: block;
+    }
+
+    #cardTitle{
+        font-size: 18px;
+    }
+
+    #mobileonlycardtext{
+        display: none;
+    }
+
+    #btn-desktop{
+        display: block;
+    }
+
+    #btn-mobile{
+        display: none;
+    }
+
+    #testimonialscarousel{
+        width: 40%;
+    }
+}
